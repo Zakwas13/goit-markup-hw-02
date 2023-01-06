@@ -1,4 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #EEEEEE;
 
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #2F303A;
 }
