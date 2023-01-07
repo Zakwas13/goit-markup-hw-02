@@ -1,13 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #EEEEEE;
-
 }
 
-header {
-    color: #FFFFFF;
-}
+.button {}
 
-footer {
-    color: #2F303A;
+.navinne {
+    font-weight: 500;
+    color: #212121;
 }
