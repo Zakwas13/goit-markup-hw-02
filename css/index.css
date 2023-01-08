@@ -1,17 +1,101 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #EEEEEE;
+    background: #E5E5E5;
+
 }
 
-.button {}
+.header {
+    background-color: #FFFFFF;
+}
 
 .navinne {
     font-weight: 500;
     color: #212121;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
 }
 
 .navthis {
     font-weight: 500;
     color: #2196F3;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    letter-spacing: 0.03em;
+
+    ;
+
+}
+
+.telandmailheader {
+    font-weight: 500;
+    color: #757575;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em
+}
+
+.telandmailheader:hover {
+    color: #2196F3
+}
+
+.telandmailheader:focus {
+    color: #2196F3
+}
+
+.button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #212121;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    color: #2196F3
+}
+
+.button:focus {
+    color: #2196F3
+}
+
+.p-pordfolio {
+    color: #757575;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+}
+
+.h4-pordfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+    letter-spacing: 0.06em;
+}
+
+.div-pordfolio {
+    background: #FFFFFF;
+
+}
+
+footer {
+    background: #2F303A;
     ;
 }
