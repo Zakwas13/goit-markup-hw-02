@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pordfolio</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,28 +18,27 @@
 
 <body>
     <header class="header">
-        <a class="logo"
-            href="index.html">WebStudio</a><!--czy jestem wstanie zrovci na tym etapie takie logo jak w figmie  ?-->
+        <a class="logo" href="index.html"><span class="blue">Web</span> Studio</a>
         <nav>
-            <ul><!--zabij mnie niewuiem jak usunąć te wskazniki-->
-                <li><a class="navinne " href="Agencja">Agencja</a></li>
-                <li><a class="navthis" href="./pordfolio.html">Portfolio</a></li>
-                <li><a class="navinne " href="Kontakt">Kontakt</a></li>
+            <ul class="ul">
+                <li><a class="nav-inne " href="index.html">Agencja</a></li>
+                <li><a class="nav-this" href="./pordfolio.html">Portfolio</a></li>
+                <li><a class="nav-inne " href="Kontakt">Kontakt</a></li>
             </ul>
         </nav>
-        <a class="telandmailheader" href="mailto=info@devstudio.com">info@devstudio.com</a>
-        <a class="telandmailheader">+48 111 111 111</a>
+        <a class="tel-email-header" href="mailto=info@devstudio.com">info@devstudio.com</a>
+        <a class="tel-email-header" href="+48 111 111 111">+48 111 111 111</a>
     </header>
     <main>
 
-        <ul>
+        <ul class="ul">
             <li><button class="button" type="button">Wszystkie</button></li>
             <li><button class="button" type="button">Strony</button></li>
             <li><button class="button" type="button">Aplikacje</button></li>
             <li><button class="button" type="button">Dizajn</button></li>
             <li><button class="button" type="button">Marketing</button></li>
         </ul>
-        <article><!--czy divy będą odpowiednie tu ?-->
+        <article>
             <div class="div-pordfolio "><img src="images/imgpordfolio(1).jpg"
                     alt="Uruchomiony laptop z wyswietloną stroną internetową " width="370" height="294">
                 <h4 class="h4-pordfolio ">Technocrack</h4>
@@ -88,19 +87,18 @@
 
 
     </main>
-    <footer><a class="logo" href="WebStudio">WebStudio</a>
+    <footer class="footer"><a class="logo" href="index.html"><span class="blue">Web</span> Studio</a>
 
-        <ul>
-            <li><a class="footeradres" href="">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-            <!--tez maj a zmieniać kolor przy najechaniu ??-->
-            <li><a class="telandemailfooter underline" href="">info@example.com</a></li>
-            <!-- jak usunać pokkreslenie -->
-            <li><a class="telandemailfooter" href="">+48 111 111 111</a></li>
+        <ul class="ul">
+            <li><a class="footer-adres" href="">m. Warszawa, Aleje Jerozolimskie 21</a></li>
+
+            <li><a class="tel-email-footer underline" href=" mailto=info@devstudio.com">info@example.com</a></li>
+
+            <li><a class="tel-email-footer text-decoration-n" href="+48 111 111 111">+48 111 111 111</a></li>
         </ul>
 
     </footer>
 
 </body>
 
-</html><!--nie wiem czy mnożniki są poprawne:(   )-->
-<!-- wtyczka live server czasami sie rózni  od gaktycznie przesłanej strony w git, pomimo ze na tym obydwoch  są takie same wersie kodu -->
+</html>

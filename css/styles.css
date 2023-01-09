@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #E5E5E5;
+
     color: #212121;
 }
 
@@ -8,21 +8,36 @@ body {
     background-color: #FFFFFF;
 }
 
-.navinne {
+.nav-inne {
     font-weight: 500;
+    color: #212121;
 
     font-size: 14px;
     line-height: 1, 14285714;
     letter-spacing: 0.02em;
+    text-decoration: none;
 
 }
 
-.navthis {
+.nav-inne:hover {
+    color: #2196F3;
+}
+
+.nav-inne:focus {
+    color: #2196F3;
+}
+
+.nav-this {
     font-weight: 500;
     color: #2196F3;
     font-size: 14px;
     line-height: 1, 14285714;
     letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav-this:focus {
+    color: #2196F3;
 }
 
 .logo {
@@ -31,26 +46,28 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1, 19230769;
-    color: #2196F3;
-    letter-spacing: 0.03em;
 
-    ;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
 
 }
 
-.telandmailheader {
+.tel-email-header {
     font-weight: 500;
     color: #757575;
     font-size: 14px;
     line-height: 1, 14285714;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
 }
 
-.telandmailheader:hover {
+.tel-email-header:hover {
     color: #2196F3
 }
 
-.telandmailheader:focus {
+.tel-email-header:focus {
     color: #2196F3
 }
 
@@ -94,42 +111,62 @@ body {
 
 }
 
-footer {
+.footer {
     background: #2F303A;
     ;
 }
 
-.footeradres {
+.footer-adres {
     font-size: 14px;
     line-height: 1, 71428571;
     letter-spacing: 0.03em;
-
     color: #FFFFFF;
+    text-decoration: none;
+
 }
 
-.footeradres:focus {
+.footer-adres:focus {
     color: #2196F3
 }
 
-.telandemailfooter {
+.footer-adres:hover {
+    color: #2196F3
+}
+
+.tel-email-footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 1, 71428571;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+
 }
 
 
 
-.telandemailfooter :focus {
+.underline {
+    text-decoration-line: underline;
+
+}
+
+.text-decoration-n {
+    text-decoration: none;
+}
+
+.tel-email-footer :focus {
+
     color: #2196F3
 }
 
-.divh1 {
+.tel-email-footer:hover {
+    color: #2196F3
+}
+
+.div-background {
     background: #2F303A;
 }
 
-.h11234 {
+.h1-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1, 36363636;
@@ -140,7 +177,7 @@ footer {
     color: #FFFFFF;
 }
 
-.buttonh1 {
+.solo-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1, 875;
@@ -152,6 +189,11 @@ footer {
     color: #FFFFFF;
     background: #2196F3;
 
+}
+
+.solo-button:focus {
+    color:
+        #212121;
 }
 
 .p-index {
@@ -171,7 +213,7 @@ footer {
     color: #212121;
 }
 
-.h2title {
+.h2-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1, 6666666;
@@ -198,4 +240,12 @@ footer {
     letter-spacing: 0.03em;
 
     color: #212121;
+}
+
+.blue {
+    color: #2196F3;
+}
+
+.ul {
+    list-style: none;
 }
