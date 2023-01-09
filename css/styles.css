@@ -49,8 +49,10 @@ body {
 
     letter-spacing: 0.03em;
     text-decoration: none;
+}
 
-
+.logo:hover {
+    color: #2196F3;
 }
 
 .tel-email-header {
