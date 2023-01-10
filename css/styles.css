@@ -4,6 +4,12 @@ body {
     color: #212121;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     background-color: #FFFFFF;
 }
@@ -42,7 +48,7 @@ body {
 
 .logo {
     font-family: 'Raleway';
-
+    color: #000000;
     font-weight: 700;
     font-size: 26px;
     line-height: 1, 19230769;
@@ -86,7 +92,8 @@ body {
 }
 
 .button:hover {
-    color: #2196F3
+    color: #FFFFFF;
+    background: #2196F3;
 }
 
 .button:focus {
